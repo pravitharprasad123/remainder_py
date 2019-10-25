@@ -1,4 +1,4 @@
-'''Simple Database Application using Oracle Database to Create , Insert , Update and View Remainders on the Current Day and View all Remainders.
+'''Simple Python Database Application using Oracle Database to Create , Insert , Update and View Remainders on the Current Day and View all Remainders.
    Remainder Button Displays all the Events on the Current Date(MM) Only(System Date).
    View All Button Displays all the Avaliable Remainders.
    Update works taking the 'NAME' Field into Consideration.
