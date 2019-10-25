@@ -24,7 +24,7 @@ def database():
    event1=event.get()
    conn = cx_Oracle.connect("system/saint12345@localhost/XE")
    cursor=conn.cursor()
-   #cursor.execute('CREATE TABLE Details (day varchar(30) not null,month varchar(30) not null,name varchar(30) not null,event varchar(30) not null)')
+   cursor.execute('CREATE TABLE Details (day varchar(30) not null,month varchar(30) not null,name varchar(30) not null,event varchar(30) not null)')
    cursor.execute('INSERT INTO Details (day,month,name,event) VALUES(:1,:2,:3,:4)',(day1,month1,name1,event1))
    conn.commit()
    ll6.config(text="Remainder Added")
